@@ -1,0 +1,1 @@
+<?phpif(!isset($_SESSION)){session_start();}session_destroy();if(isset($_COOKIE['js'])) setcookie('js', $js, time()-3000);echo "....";
